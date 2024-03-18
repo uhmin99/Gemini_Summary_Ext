@@ -1,0 +1,22 @@
+{
+  "author": "uhmin99",
+  "name": "Gemini on Chrome Extension",
+  "description": "Build with AI - GDSC Yonsei X CAU",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup_menu.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
